@@ -1,5 +1,6 @@
 <template>
     <div class="com-page">
+        1
         <doctor></doctor>
     </div>
 </template>
