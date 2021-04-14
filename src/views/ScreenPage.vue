@@ -6,7 +6,7 @@
 
             </div>
             <div class="title-right">
-                <span class="datetime">2049-01-01 00:00:00</span>
+                <span class="datafrom">(数据来源于新氧年度白皮书)</span>
             </div>
         </header>
         <div class="screen-body">
@@ -129,6 +129,10 @@
     .right-bottom{
         width: 100%;
         height: 300px;
+    }
+    .title-right .datafrom{
+        color: #d0d0d0;
+        font-size: 10px;
     }
 
 
