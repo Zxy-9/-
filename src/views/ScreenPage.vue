@@ -13,7 +13,7 @@
             <div class="screen-left">
                 <div class="left-top"><Level></Level></div>
                 <div class="left-center"><Plastic></Plastic></div>
-                <div class="left-bottom"><Stock></Stock></div>
+                <div class="left-bottom"><Purchase></Purchase></div>
             </div>
             <div class="screen-center">
                 <div class="center-top"><Map></Map></div>
@@ -41,7 +41,8 @@
             Rank,
             Seller,
             Stock,
-            Trend
+            Trend ,
+            Purchase
         }
     }
 
@@ -55,6 +56,7 @@
     import Seller from "../components/Seller";
     import Stock from "../components/Stock";
     import Trend from "../components/Trend";
+    import Purchase from "../components/purchase"
 </script>
 
 <style scoped>
