@@ -6,6 +6,7 @@
 
 <script>
     export default {
+        //doctor
         name: "Doctor" ,
         data(){
             return{
@@ -118,9 +119,7 @@
             getData(){
                 this.updateChart()
             },
-            updateChart() {
-
-            }          ,
+         
             screenAdapter(){
                 const titleFontSize=this.$refs.doctor_ref.offsetWidth/100*2.8
                 const adapterOption = {
@@ -147,6 +146,3 @@
     }
     </script>
 
-<style scoped>
-
-</style>
