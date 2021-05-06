@@ -22,7 +22,7 @@
             <div class="screen-right">
                 <div class="right-top"><Doctor></Doctor></div>
                 <div class="right-center"><Injection></Injection></div>
-                <div class="right-bottom"><span>right-bottom</span></div>
+                <div class="right-bottom"><span><Stock></Stock></span></div>
             </div>
         </div>
     </div>
@@ -113,7 +113,6 @@
     .center-top{
         width: 100%;
         height: 50%;
-        margin-bottom: 10px;
 
     }
     .center-bottom{
@@ -123,14 +122,18 @@
     .right-top{
         width: 100%;
         height: 150px;
+        margin-bottom: 15px;
     }
     .right-center{
         width: 100%;
         height: 150px;
+        margin-bottom: 15px;
     }
     .right-bottom{
         width: 100%;
         height: 300px;
+
+     
     }
     .title-right .datafrom{
         color: #d0d0d0;

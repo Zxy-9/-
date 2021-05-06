@@ -55,7 +55,7 @@
                     },
 
                     yAxis: {
-                        data: ['2013'],
+                        data: ['2019'],
                         inverse: true,
                         axisTick: {show: false},
                         axisLine: {show: false},

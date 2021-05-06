@@ -73,7 +73,7 @@
                 const seriesArr = showData.map((item, index) => {
                         return {
                             type: 'pie',
-                            radius: [110, 100],
+                            radius: [55,50 ],
                             center: centerArr[index],
                             hoverAnimation: false, // 关闭鼠标移入到饼图时的动画效果
                             labelLine: {
@@ -114,10 +114,10 @@
                 }
                 this.chartInstance.setOption(dataOption)
             },
-            screenAdapter () {
+        /*    screenAdapter () {
                 const titleFontSize = this.$refs.stock_ref.offsetWidth / 100 * 2.8
-                const innerRadius = titleFontSize * 2
-                const outterRadius = innerRadius * 1.125
+                const innerRadius = titleFontSize
+                const outterRadius = innerRadius
                 const adapterOption = {
                     title: {
                         textStyle: {
@@ -164,7 +164,7 @@
                 }
                 this.chartInstance.setOption(adapterOption)
                 this.chartInstance.resize()
-            },
+            },*/
             startInterval () {
                 if (this.timerId) {
                     clearInterval(this.timerId)

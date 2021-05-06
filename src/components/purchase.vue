@@ -28,8 +28,9 @@
             initChart() {
                 this.chartInstance = this.$echarts.init(this.$refs.purchase_ref,'chalk')
                 const initOption={
+
                     title: {
-                        text: ''
+                        text: '▎医美用户购买的面部整形数量',
                     },
                     tooltip: {},
                     legend: {
@@ -37,6 +38,7 @@
                     },
                     radar: {
                         //shape: 'circle',
+                        radius: 60,
                         name: {
                             textStyle: {
                                 color: '#fff',
