@@ -116,12 +116,10 @@
                 }
                 this.chartInstance.setOption(initOption)
             },
-            getData(){
-                this.updateChart()
-            },
+         
 
             screenAdapter(){
-                const titleFontSize=this.$refs.doctor_ref.offsetWidth/100*2.8
+                const titleFontSize=this.$refs.doctor_ref.offsetWidth/100
                 const adapterOption = {
                     title:{
                         textStyle:{

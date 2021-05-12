@@ -122,7 +122,7 @@
             this.chartInstance.setOption(dataOption)
             },
             screenAdapter(){
-                 this.titleFontSize=this.$refs.hot_ref.offsetWidth/100*2.8
+                 this.titleFontSize=this.$refs.hot_ref.offsetWidth/100*3
                 const adapterOption={
                      title:{
                          textStyle:{

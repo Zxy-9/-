@@ -32,7 +32,7 @@
                     title: {
                         text: '▎医美用户购买的面部整形数量',
                         left:20,
-                        top:20
+                        top:30
                     },
                     tooltip: {
                         trigger: 'item'
@@ -55,7 +55,7 @@
                                 {value: 13.9, name: '6项及以上'},
                                 {value: 3.8, name: '5项'}
                             ],
-                            center:['50%','60%'] ,
+                            center:['50%','65 %'] ,
                             emphasis: {
                                 itemStyle: {
                                     shadowBlur: 10,

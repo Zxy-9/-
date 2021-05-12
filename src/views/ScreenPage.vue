@@ -83,13 +83,14 @@
     }
     .screen-body{
         display: flex;
+        
     }
     .screen-left{
         flex: 2;
     }
     .screen-center{
         flex: 3;
-
+        margin-right: 10px;
     }
     .screen-right{
         flex: 2;
@@ -97,11 +98,12 @@
     .left-top{
         width: 100%;
         height: 28%;
+
     }
     .left-center{
         width: 100%;
         height: 40%;
-     
+
         margin-right: 10px;
     }
     .left-bottom{
@@ -109,6 +111,7 @@
         height: 35%;
 
         margin-right: 10px;
+        margin-bottom: -40px;
     }
     .center-top{
         width: 100%;
@@ -118,26 +121,31 @@
     .center-bottom{
         width: 100%;
         height: 53%;
+
     }
     .right-top{
         width: 100%;
         height: 150px;
         margin-bottom: 15px;
+
     }
     .right-center{
         width: 100%;
         height: 150px;
         margin-bottom: 15px;
+
     }
     .right-bottom{
         width: 100%;
         height: 300px;
-
+   
+        margin-bottom: 1px;
      
     }
     .title-right .datafrom{
         color: #d0d0d0;
         font-size: 10px;
+        
     }
 
 
